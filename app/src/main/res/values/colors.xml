@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <color name="lightgrey_background_01">#e9e4e0</color>
+   <color name="lightgrey_background_02">#999999</color>
+   <color name="lightgrey_textcolor">#666666</color>
+   <color name="black_textcolor">#ff0000</color>
+   <color name="white_textcolor">#FFFFFF</color>
+   <color name="colorPrimary">#3F51B5</color>
+   <color name="colorPrimaryDark">#303F9F</color>
+   <color name="colorAccent">#FF4081</color>
+   <color name="bright1">#F1DAFF</color>
+   <color name="bt_login">#AFCBFF</color>
+</resources>

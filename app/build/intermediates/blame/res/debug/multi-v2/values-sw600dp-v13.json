@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\app\\AR-Lacak\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-23.1.1.aar\\8d125b77e90c0f1c126572749bf46616\\res\\values-sw600dp\\values-sw600dp.xml",
+                    "from": {
+                        "startLines": "4,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "235,304",
+                        "endColumns": "68,68",
+                        "endOffsets": "299,368"
+                    },
+                    "to": {
+                        "startLines": "16,17",
+                        "startColumns": "4,4",
+                        "startOffsets": "1041,1110",
+                        "endColumns": "68,68",
+                        "endOffsets": "1105,1174"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.1.1.aar\\c01d7bb0faca0ee795433f9075672a0c\\res\\values-sw600dp\\values-sw600dp.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,10,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "233,302,372,446,700,937,1008,1076",
+                        "endColumns": "68,69,73,75,58,70,67,54",
+                        "endOffsets": "297,367,441,517,754,1003,1071,1126"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,18",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,194,268,344,403,474,1179",
+                        "endColumns": "68,69,73,75,58,70,67,54",
+                        "endOffsets": "119,189,263,339,398,469,537,1229"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\design-23.1.1.aar\\1d4a945c169e92ecb20da16800bfbbdb\\res\\values-sw600dp\\values-sw600dp.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,13,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "227,297,368,440,498,556,662,898,1133",
+                        "endLines": "4,5,6,7,8,9,10,13,19",
+                        "endColumns": "69,70,71,57,57,105,63,62,12",
+                        "endOffsets": "292,363,435,493,551,657,721,956,1310"
+                    },
+                    "to": {
+                        "startLines": "9,10,11,12,13,14,15,19,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "542,612,683,755,813,871,977,1234,1297",
+                        "endLines": "9,10,11,12,13,14,15,19,23",
+                        "endColumns": "69,70,71,57,57,105,63,62,12",
+                        "endOffsets": "607,678,750,808,866,972,1036,1292,1474"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:columnCount="2"
+    app:orientation="horizontal"
+    app:rowCount="2">
+
+    <FrameLayout
+        android:id="@+id/lukabakar2"
+        android:background="#5F9EA0"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:visibility="invisible"
+    android:id="@+id/tvhello"
+    />
+            <ImageView
+                android:id="@+id/lukabakar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_info" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lukabakar1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="Patah Tulang"
+                android:id="@+id/lukabakar"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/pth"
+        android:background="#B8860B"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/pathtulang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_info_black_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pathtulang"
+                android:id="@+id/patahtulang"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="Luka Bakar!"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/ep"
+        android:background="#710084"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/kjg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_info" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/kjg"
+                android:id="@+id/kejang"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="Kejang"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/tdk"
+        android:background="#0043b7"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/tdksadar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_info_black_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tdksadar"
+                android:id="@+id/tidaksdarkan"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="Luka Bakar!"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </FrameLayout>
+    <FrameLayout
+        android:background="#2E8B57"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/rate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_star_black_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rate"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="Rate Card"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </FrameLayout>
+    <FrameLayout
+        android:background="#BC8F8F"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/rev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_sentiment_satisfied_black_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rev"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="Review "
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </FrameLayout>
+</android.support.v7.widget.GridLayout>

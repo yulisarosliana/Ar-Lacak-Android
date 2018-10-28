@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:background="#DAF1FF"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        >
+
+        <TextView
+            android:background="#069c88"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AR Lacak FAQ"
+            android:textSize="10pt"/>
+
+        <TextView
+            android:textSize="10pt"
+            android:textColor="@color/black_textcolor"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tvtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pertanyaan umum"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black_textcolor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q: Apa itu AR Lacak? "/>
+
+        <TextView
+            android:textColor="@color/black_textcolor"
+                android:text="AR Lacak adalah sebuah aplikasi pelaporan kecelakaan lalu lintas dan tindak kriminal, dilengkapi dengan fitur Augmented-Reality untuk melihat posisi pos polisi terdekat."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black_textcolor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q: Kepada siapa AR Lacak ditujukan? "/>
+
+        <TextView
+            android:textColor="@color/black_textcolor"
+            android:text="AR Lacak ditujukan kepada semua kalangan masyarakat yang selalu membawa gadget kemanapun ia pergi. Agar apabila terjadi kecelakaan lalu lintas atau tindakan kriminal disaat tidak terduga, pengguna siap menggunakan AR Lacak untuk melapor."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black_textcolor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q: Berapa usia AR Lacak? "/>
+
+        <TextView
+            android:textColor="@color/black_textcolor"
+            android:text="AR Lacak untuk perangkat Android masih dalam tahap pengembangan, dan akan rilis tanggal xx-xx-xxxx."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black_textcolor" />
+
+        <TextView
+            android:textSize="10pt"
+            android:textColor="@color/black_textcolor"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pertanyaan dasar"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black_textcolor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q: Bagaimana cara melaporkan kecelakaan dan tindak kriminal ? "/>
+
+        <TextView
+            android:textColor="@color/black_textcolor"
+            android:text="Melakukan pelaporan kecelakaan lalu lintas dengan memilih kategori laporan, megambil gambar, mengisi form judul, mengisi form alamat, mengisi form uraian singkat (opsional) terakhir kirim."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black_textcolor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q: Apa yang dibutuhkan saat menggunakan AR Lacak ? "/>
+
+        <TextView
+            android:textColor="@color/black_textcolor"
+            android:text="AR Lacak membutuhkan koneksi internet, GPS dan kamera."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</ScrollView>

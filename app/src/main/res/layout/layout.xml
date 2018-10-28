@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:background="@drawable/gradient_bg"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        >
+
+        <TextView
+            android:background="#069c88"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lapor Polisi"
+            android:textSize="10pt"/>
+
+        <TextView
+            android:drawableLeft="@drawable/ic_kategori"
+            android:textSize="8pt"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Pilih Jenis Laporan"/>
+
+        <!--<RadioGroup-->
+            <!--android:id="@+id/rg"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+            <!--<RadioButton-->
+                <!--android:checked="true"-->
+                <!--android:id="@+id/rb_laka"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Lapor Kecelakaan"/>-->
+            <!--<RadioButton-->
+                <!--android:id="@+id/rb_kriminal"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Lapor Tindak Kriminal"/>-->
+        <!--</RadioGroup>-->
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+        </LinearLayout>
+
+        <ImageButton
+            android:src="@drawable/ic_add_camera"
+            android:background="@null"
+
+            android:id="@+id/btnCamera"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Ambil gambar. (Klik ikon kamera diatas)"/>
+
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/ivImage"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:contentDescription="image"
+            android:visibility="gone" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+        <EditText
+            android:drawableLeft="@drawable/ic_keyboard"
+            android:id="@+id/etdetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Ketik judul. (eg: Tabrakan bus atau maling tertangkap warga)"
+            android:singleLine="true" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+            <EditText
+                android:drawableLeft="@drawable/ic_ketik_lokasi"
+                android:id="@+id/etalamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=" Ketik lokasi. (eg: Jl. Hr. subrantas panam)"
+                android:singleLine="true" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+            <EditText
+                android:drawableLeft="@drawable/ic_uraian"
+                android:id="@+id/etdeskripsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=" Ketik uraian singkat kejadian. (opsional)"
+                android:singleLine="true" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/btsubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kirim"/>
+
+            <Button
+                android:id="@+id/btclear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hapus"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:text="null"
+                android:id="@+id/tvlat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignLeft="@+id/tvlat2"
+                android:layout_alignStart="@+id/tvlat2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp" />
+
+            <TextView
+                android:id="@+id/tvlat2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="lat : "
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/tvlng2"
+                android:text="lng :"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tvlat"
+                android:layout_alignBottom="@+id/tvlat"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:text="null"
+                android:id="@+id/tvlng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/tvlng2"
+                android:layout_toEndOf="@+id/tvlng2" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

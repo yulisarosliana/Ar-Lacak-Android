@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg_login"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginRight="@dimen/fab_margin">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:src="@drawable/logo"
+
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/icusername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/logo"
+            android:layout_marginTop="47dp"
+            />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logo"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@id/icusername"
+            android:layout_toRightOf="@id/icusername">
+
+            <EditText
+                android:drawableLeft="@drawable/ic_username"
+                android:id="@+id/etusername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:hint="Username"
+                android:singleLine="true"
+                tools:textAlignment="textStart" />
+
+        </android.support.design.widget.TextInputLayout>
+        <!--<EditText-->
+
+        <!--android:id="@+id/etusername"-->
+        <!--android:layout_marginTop="40dp"-->
+        <!--android:hint="Username"-->
+        <!--android:layout_toEndOf="@id/icusername"-->
+        <!--android:layout_below="@id/logo"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--tools:textAlignment="textStart" />-->
+
+        <ImageView
+            android:id="@+id/icpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/icusername"
+            android:layout_marginTop="20dp"
+             />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/view"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/view"
+            android:layout_alignTop="@+id/icpassword">
+
+            <EditText
+                android:drawableLeft="@drawable/ic_password1"
+                android:id="@+id/etpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/icpassword"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:singleLine="true"></EditText>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <!--<EditText-->
+        <!--android:inputType="textPassword"-->
+        <!--android:textAlignment="textStart"-->
+        <!--android:id="@+id/etpassword"-->
+        <!--android:hint="Password"-->
+        <!--android:layout_toEndOf="@+id/icusername"-->
+        <!--android:layout_below="@id/etusername"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+
+        <TextView
+            android:id="@+id/tvforgot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="50dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/tvcreateuser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="Buat  Akun Baru"
+            android:textSize="30dp"
+            android:layout_marginBottom="5dp"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <Button
+
+            android:id="@+id/btnlogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@color/bt_login"
+            android:text="MASUK"
+            android:layout_below="@+id/view2"
+            android:layout_toRightOf="@+id/icpassword"
+            android:layout_toEndOf="@+id/icpassword" />
+
+        <TextView
+            android:id="@+id/tvshow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show"
+            android:visibility="invisible"
+            android:layout_below="@+id/view"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+</LinearLayout>

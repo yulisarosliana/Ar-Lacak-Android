@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_berita"
+            android:icon="@drawable/ic_content"
+            android:title="Berita Terbaru" />
+        <item
+            android:id="@+id/nav_lapor"
+            android:icon="@drawable/ic_report"
+            android:title="Lapor Polisi" />
+        <item
+            android:id="@+id/nav_kompas"
+            android:icon="@drawable/ic_compass"
+            android:title="Kantor Polisi" />
+    </group>
+
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info"
+                android:title="Tentang" />
+        </menu>
+
+    </item>
+
+</menu>
